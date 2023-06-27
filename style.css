@@ -1,0 +1,158 @@
+/* I tried various things from class examples to online sources to try to get the right styling */
+/* ultimately I ran out of time */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #f5f7f2;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  /* Turns this element into a flexbox */
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  /*margin-top: 2%; */
+}
+
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 20px;
+}
+
+a {
+  color: #48bcd1;   
+}
+
+.header div ul {
+  list-style-type: none
+}
+
+.header div ul li {
+  display: inline-block;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cont1 {
+  width: 70%;
+  height: 100px;
+}
+
+.cont2 {
+  width: 100%;
+  height: 500px;
+  background-color: chartreuse;
+}
+
+.cont3 {
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  background-color:cornflowerblue;
+}
+
+.flex-item {
+  width: 300px;
+  height: 100px;
+} 
+
+.item1 {
+  border-right-color:black;
+}
+
+.card1 {
+  width: 200px;
+  height: 100px;
+}
+
+.card2 {
+  width: 200px;
+  height: 100px;
+}
+
+.card3 {
+  width: 200px;
+  height: 100px;
+}
+
+.card4 {
+  width: 200px;
+  height: 100px;
+}
+
+/* Class Selectors select all elements with that class */
+.header {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: white;
+  background-color:#26302c;
+  display: flex;
+  justify-content: space-between;
+  /* height: 120px; */
+  align-items: center;
+  width: 100%;
+}  
+
+.header h1 .name {
+  display: block;
+  margin-top: 15px;
+  color: #26302c;
+  font-weight: bolder;
+  padding-left: 0px;
+  padding-right: 25px;
+  padding-top: 15px;
+  background-color: #48bcd1;
+  text-align: right;
+  font-size: 50px;
+  height: 30%;
+  width: 100%;
+}
+
+/* Id Selectors are unique id to identify an element */
+#box-orange {
+  color: blue;
+  background-color: orange;
+}
+
+
+.about {
+    background-color: lemonchiffon;
+    display: flex;   
+    border-right: 5px solid black;
+}
+
+.about .about content {
+    display: flex;
+    
+}
+
+.subtitles {
+    display:flex;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom right, blue,green);
+}
+
+.subtitles h2 .cool {
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  align-items: center;
+}
+
+.title {
+    color: darkblue;
+}
+  
+.footer1 {
+  display: flex;
+}
