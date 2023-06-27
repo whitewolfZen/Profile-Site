@@ -54,6 +54,6 @@
 
 ## Image of Mock Up Webstie
 
-![Profile Website Needs Work](./assets/image1.png)
+![Profile Website Needs Work](image1.png)
 
 ## Mock up Website URL
